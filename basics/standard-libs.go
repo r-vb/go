@@ -11,8 +11,7 @@ func main() {
 	welcome := "nice to see you!"
 
 	fmt.Println(strings.Contains(welcome, "to"))              // returns true or false value
-	fmt.Println(strings.ReplaceAll(welcome, "nice", "happy")) // none of the functions change original string ;
-	// they create a new one with replacements made
+	fmt.Println(strings.ReplaceAll(welcome, "nice", "happy")) // none of the functions change original string ; they create a new one with replacements made
 	fmt.Println(strings.ToUpper(welcome))     // converts all letters in string to uppercase
 	fmt.Println(strings.Index(welcome, "ee")) // returns first index where substring is found; -1 if not found
 	fmt.Println(strings.Title("hello world")) // capitalizes first letter of each word
