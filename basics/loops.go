@@ -29,6 +29,5 @@ func main() {
 		fmt.Printf("the value is %v \n", value) // ll'rly if we don't want to use value replace with _
 		value = "new string"
 	}	// altering value here does not update the original slice as it creates a new local copy of the variable in each iteration
-	fmt.Println(names)		
-
+	fmt.Println(names)	
 }
